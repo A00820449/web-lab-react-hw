@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Menu() {
-    const homepageURL = process.env.PUBLIC_URL || "/"
+    const homepageURL = process.env.PUBLIC_URL || ""
     return (
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a href={homepageURL} className={"navbar-brand"}>Mi Proyecto</a>
