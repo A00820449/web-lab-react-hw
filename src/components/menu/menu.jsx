@@ -14,14 +14,14 @@ export default function Menu() {
                         <a href={homepageURL} className="nav-link">Home </a>
                     </li>
                     <li className="nav-item">
-                        <a href={homepageURL + "nosotros"} className="nav-link">Nosotros </a>
+                        <a href={homepageURL + "/nosotros"} className="nav-link">Nosotros </a>
                     </li>
                     <li className="nav-item">
-                        <a href={homepageURL + "servicios"} className="nav-link">Servicios </a>
+                        <a href={homepageURL + "/servicios"} className="nav-link">Servicios </a>
                     </li>
 
                     <li className="nav-item">
-                        <a href={homepageURL + "contacto"} className="nav-link">Contacto </a>
+                        <a href={homepageURL + "/contacto"} className="nav-link">Contacto </a>
                     </li>
                 </ul>
             </div>
