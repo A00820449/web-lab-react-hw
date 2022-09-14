@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/web-lab-react-hw/static/css/main.6a13f83f.css",
-    "main.js": "/web-lab-react-hw/static/js/main.e894b634.js",
+    "main.js": "/web-lab-react-hw/static/js/main.1ab37bd2.js",
     "index.html": "/web-lab-react-hw/index.html",
     "main.6a13f83f.css.map": "/web-lab-react-hw/static/css/main.6a13f83f.css.map",
-    "main.e894b634.js.map": "/web-lab-react-hw/static/js/main.e894b634.js.map"
+    "main.1ab37bd2.js.map": "/web-lab-react-hw/static/js/main.1ab37bd2.js.map"
   },
   "entrypoints": [
     "static/css/main.6a13f83f.css",
-    "static/js/main.e894b634.js"
+    "static/js/main.1ab37bd2.js"
   ]
 }
