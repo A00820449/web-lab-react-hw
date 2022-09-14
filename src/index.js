@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Menu from './components/menu/menu';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 import './index.css';
 
 
@@ -127,13 +131,13 @@ class Game extends React.Component {
         }
         return (
             <div className="game">
-            <div className="game-board">
-                <Board squares={current.squares} onClick={(i)=> {this.handleClick(i)}} />
-            </div>
-            <div className="game-info">
-                <div>{status}</div>
-                <ol>{moves}</ol>
-            </div>
+                <div className="game-board">
+                    <Board squares={current.squares} onClick={(i)=> {this.handleClick(i)}} />
+                </div>
+                <div className="game-info">
+                    <div>{status}</div>
+                    <ol>{moves}</ol>
+                </div>
             </div>
         );
     }
@@ -142,5 +146,9 @@ class Game extends React.Component {
 // ========================================
   
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Game />);
+root.render(<div>
+    <Menu />
+    <div className='padding'></div>
+    <Game />
+</div>);
   
